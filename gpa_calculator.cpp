@@ -28,9 +28,9 @@ int main(){
 								else if (gradex_10 >= 5.0) result = "D+";
 									else if (gradex_10 >= 4.0) result = "D";
 										else result = "F";
-			cout << result;
+			cout << result << endl; 
 			break;
 	}
-	return 0;
+	system("pause");
 }
 
